@@ -1,6 +1,6 @@
-quadrado :: Int -> Int -> Int
-quadrado base expoente = base ^ expoente
+quadrado :: Int -> Int
+quadrado base = base ^ 2
 
 main :: IO ()
 main = do
-    print(quadrado 2 3)
+    print(quadrado 5)
